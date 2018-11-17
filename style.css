@@ -39,7 +39,7 @@ h1, h2, h3, h4, h5, h6 {
 
 pre {
 	background: #eee;
-	font-family: font-family: 'Fira Mono', monospace;
+	font-family: 'Fira Mono', monospace;
 	font-size: 15px;
 	font-size: 0.9375rem;
 	line-height: 1.6;
@@ -50,13 +50,13 @@ pre {
 }
 
 code, kbd, tt, var {
-	font-family: font-family: 'Fira Mono', monospace;
+	font-family: 'Fira Mono', monospace;
 	font-size: 15px;
 	font-size: 0.9375rem;
 }
 
 .site-title {
-	font-family: font-family: 'Fira Mono', monospace;
+	font-family: 'Fira Mono', monospace;
 	font-size: 30px;
 	font-size: 1.875rem;
 	font-weight: 800;
