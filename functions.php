@@ -2,7 +2,7 @@
 
 function rs_theme_enqueue_styles() {
 	$parent_style = 'lodestar';
-	
+
 	wp_dequeue_style( 'lodestar-style' );
 	wp_dequeue_style( 'lodestar' );
 
@@ -13,7 +13,7 @@ function rs_theme_enqueue_styles() {
 		wp_get_theme()->get('Version')
 	);
 }
-add_action( 'wp_enqueue_scripts', 'rs_theme_enqueue_styles' );
+add_action( 'wp_enqueue_scripts', 'rs_theme_enqueue_styles', 0 );
 
 function rs_fonts() {
 	echo '<link href="https://fonts.googleapis.com/css?family=Fira+Mono|Fira+Sans" rel="stylesheet">' . "\n";
