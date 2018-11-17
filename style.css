@@ -1,0 +1,56 @@
+/*
+Theme Name:   Resistant Systems
+Theme URI:    https://github.com/timatron/resistant-systems-web
+Description:  Resistant Systems - Lodestar Child Theme
+Author:       Resistant Systems
+Author URI:   https://resistant.systems
+Template:     lodestar
+Version:      1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: lodestar
+*/
+
+/*--------------------------------------------------------------
+# Typography
+--------------------------------------------------------------*/
+body,
+button,
+input,
+select,
+textarea {
+	color: #333;
+	font-family: 'Fira Sans', sans-serif;
+	font-size: 16px;
+	font-size: 1rem;
+	line-height: 1.5;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	clear: both;
+	font-family: 'Fira Sans', sans-serif;
+	font-weight: 800;
+	letter-spacing: 0.1em;
+	line-height: 1.25;
+	margin: 0 0 0.75em;
+	padding: 0.75em 0 0 0;
+	text-transform: uppercase;
+}
+
+pre {
+	background: #eee;
+	font-family: font-family: 'Fira Mono', monospace;
+	font-size: 15px;
+	font-size: 0.9375rem;
+	line-height: 1.6;
+	margin-bottom: 1.6em;
+	max-width: 100%;
+	overflow: auto;
+	padding: 1.6em;
+}
+
+code, kbd, tt, var {
+	font-family: font-family: 'Fira Mono', monospace;
+	font-size: 15px;
+	font-size: 0.9375rem;
+}
