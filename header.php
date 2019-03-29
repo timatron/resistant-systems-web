@@ -21,7 +21,11 @@
 </head>
 
 <body <?php body_class(); ?>>
-<div class="background-image"><!-- this is a background image on container--></div>	<html>
+<div class="container relative-image">
+  <figure>
+    <img src="https://resistant.systems/wp-content/uploads/2019/03/rs_rock_paper_compressed.jpg">
+  </figure>
+</div>
 <div id="page" class="site">
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'lodestar' ); ?></a>
 
